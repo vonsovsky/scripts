@@ -1,3 +1,7 @@
+/**
+ * Create secret code by reverting lengths of morse code encodings and decode it back
+ * For example, encode ABC with lengths (4, 4, 2) as PFN with length (2, 4, 4)
+ */
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,11 +11,11 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.StringTokenizer;
 
-public class Fs {
+public class Morse {
 
     static Map<String, String> frommorse = new HashMap<>();
     static Map<String, String> tomorse = new HashMap<>();
-    
+
     static StringTokenizer st = new StringTokenizer("");
     static BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
     //static BufferedReader input;
@@ -58,35 +62,30 @@ public class Fs {
         frommorse.put(".-.-", ",");
         frommorse.put("---.", ".");
         frommorse.put("----", "?");
-        
+
         Iterator it = frommorse.entrySet().iterator();
         while (it.hasNext()) {
             Map.Entry pairs = (Map.Entry)it.next();
             tomorse.put(pairs.getValue().toString(), pairs.getKey().toString());
         }
     }
-    
+
     public static void main(String[] args) throws IOException, Exception {
         fillTable();
-        //System.out.println(frommorse);
-        //System.out.println(tomorse);
 
         String line;
-        //line = "AKADTOF_IBOETATUK_IJN";
         while ((line = input.readLine()) != null) {
             st = new StringTokenizer(line, "");
-            
+
             String code = nextToken();
             String morsecode = "";
             StringBuilder numbers = new StringBuilder();
             for (int i = 0; i < code.length(); i++) {
-                //char ccode = code.charAt(i);
                 String tm = tomorse.get(code.substring(i, i + 1));
                 morsecode += tm;
-                //System.out.println(tm);
                 numbers.append("" + tm.length());
             }
-            
+
             String revnumbers = numbers.reverse().toString();
             String encoded = "";
             int k = 0;
@@ -95,10 +94,10 @@ public class Fs {
                 encoded += frommorse.get( morsecode.substring(k, k + step) );
                 k += step;
             }
-            
+
             System.out.println(encoded);
         }
-    
+
     }
-    
+
 }

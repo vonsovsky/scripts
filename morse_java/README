@@ -1,0 +1,2 @@
+Create secret code by reverting lengths of morse code encodings and decode it back.
+For example, encode ABC with lengths (4, 4, 2) as PFN with length (2, 4, 4).
