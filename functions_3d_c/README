@@ -1,0 +1,7 @@
+﻿Define functions and watch them in 3D. Defined functions are automatically saved
+for later use. Press [space] in main window to start graph rotation and control
+the speed by [+] or [-].
+
+Function description example:
+y=log(x);
+z=lgamma(y);

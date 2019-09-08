@@ -1,0 +1,18 @@
+y=x;
+y=pi;
+y=e;
+y=abs(x);
+y=1/x;
+y=pow(x, 2);
+y=sqrt(x);
+y=sin(x);
+y=cos(x);
+y=tan(x);
+y=cotg(x);
+y=log(x);
+y=int(x);
+y=lgamma(x);
+
+y=pow(x,-1);
+y=1/(1+pow(x,2));
+y=pow(1/x,2);

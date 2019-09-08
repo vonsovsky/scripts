@@ -1,0 +1,4 @@
+y=log(x);
+z=lgamma(y);
+@@@
+fullscreen=0;

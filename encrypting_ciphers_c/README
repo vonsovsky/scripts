@@ -1,0 +1,5 @@
+Source code for simple ciphers. Included ciphers are:
+
+Caesar cipher: https://en.wikipedia.org/wiki/Caesar_cipher
+Vigenere cipher: https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher
+Transposition cipher: https://en.wikipedia.org/wiki/Transposition_cipher
