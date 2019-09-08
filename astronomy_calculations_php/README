@@ -1,0 +1,17 @@
+# Astronomy calculations
+
+Astronomical calculations as part of my bachelor thesis: https://is.muni.cz/th/uhbsu/
+
+## What it does
+It can calculate sunset and sunrise time for any given location at any
+given date. It shows positions of planets or selected stars on the night sky at
+any given time. Or shows moon phase.
+Earth precession and nutation is taken into account.
+
+## How to use
+Application should be copied to any folder where web server reads data.
+
+## Troubleshooting
+If generating png of images doesn't work, it's because of first line 
+`#!/packages/run/php/bin/php` in includes/map.php and includes/moonphase.png.
+You can just delete it.

@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+table {
+  text-align: center;
+}
+
+acronym {
+  cursor: help;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#page {
+  width: 1000px;
+  margin: auto;
+  line-height: 1.5em;
+  padding: 10px;
+}
+
+#menu {
+  text-align: left;
+}
+
+#sunrise_canvas {
+  width: 710px;
+}
+
+#place_canvas {
+  width: 710px;
+}
+
+.left_input {
+  width: 200px;
+  text-align: right;
+  float: left;
+  padding-right: 20px;
+}
+
+.right_input {
+  width: text-align: left;
+  width: 250px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+.centered {
+  text-align: center;
+}
+
+.legend {
+  width: 18px;
+  height: 18px;
+  font-size: 1px;
+  float: left;
+}
+
+.cHeader {
+  cursor: pointer;
+}
+
+.error, .ok {
+  width: 100%;
+  border: 1px dotted black;
+  padding: 10px;
+  background-color: #fa2e10;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+.ok {
+  background-color: lime;
+}
+
+.right {
+  float: right;
+}
+
+span.link {
+  font-size: 18px;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 110px;
+}

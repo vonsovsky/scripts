@@ -1,0 +1,4 @@
+Redirect 301 /index.html http://www.fi.muni.cz/~xvonsovs/astro/index.php
+
+AddHandler cgi-script .php
+AddType application/x-httpd-php .php
