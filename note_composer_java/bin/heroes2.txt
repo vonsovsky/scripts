@@ -1,0 +1,1 @@
+M4/4 X[Volume]=16383 T60 I[FLUTE] E6q. F6i E6s F6s G6s F6s E6h E6s F6s G6s F6s F6h F6s E6s D6s F6s F6h F6s E6s D6s E6s F6h F6s E6s D6s E6s F6h F6s E6s D6s E6s E6h E6s D6s C6s D6s E6h E6s D6s C6s E6s F6h F6s G6s A6s G6s F6h F6s E6s D6s E6s F6h F6s E6s D6s E6s F6h F6s E6s D6s E6s D6h D6s E6s F6s E6s D6h D6s E6s F6s E6s E6h E6s D6s C6s B5s E6h 

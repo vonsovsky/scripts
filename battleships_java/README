@@ -1,0 +1,5 @@
+Play classic battleships against the computer. 
+You have to place the ships in the 1st phase so they don't touch each other
+(even diagonally). After placing all of them, 2nd place starts where you
+are trying to sink all your enemy's ships. After sinking a one, use right button
+to mark all positions around to avoid empty firings.
