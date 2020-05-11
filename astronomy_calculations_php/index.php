@@ -1,11 +1,10 @@
-#!/packages/run/php/bin/php
-
 <?php
   session_start();
   error_reporting(E_ALL);
   set_time_limit(0);
 
-  require 'db/connection.php';
+  require 'vendor/autoload.php';
+  require_once 'db/connection.php';
   
   include 'includes/config.php';
   include 'includes/includes.php';

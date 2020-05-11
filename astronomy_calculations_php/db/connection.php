@@ -1,6 +1,4 @@
 <?php
-  require_once('dibi.php');
-
   if (file_exists('db/astro.db')) {
     dibi::connect(array(
         'driver'   => 'sqlite3',

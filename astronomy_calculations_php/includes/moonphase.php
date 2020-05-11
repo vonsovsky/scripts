@@ -1,4 +1,3 @@
-#!/packages/run/php/bin/php
 <?php
 Header("Content-type: image/png");
 
